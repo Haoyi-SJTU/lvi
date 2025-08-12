@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot name="original_sensor">
+  <link name="world">
+    <visual>
+      <origin rpy="0 0 0" xyz="-0.0294 -0.03361 1.8"/>
+      <geometry>
+        <mesh filename="package://display/urdf/sensor.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="original_material">
+        <color rgba="0.02 0.97 0.2 0.2"/>
+      </material>
+    </visual>
+  </link>
+</robot>

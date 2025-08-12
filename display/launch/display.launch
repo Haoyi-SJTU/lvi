@@ -1,0 +1,9 @@
+<launch>
+  <arg name="model" default="$(find display)/urdf/sensor.urdf"/>
+  <arg name="original_model" default="$(find display)/urdf/original_sensor.urdf"/>
+  <arg name="rvizconfig" default="$(find display)/rviz/display.rviz" />
+
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(arg model)" />
+  <param name="original_robot_description" command="$(find xacro)/xacro --inorder $(arg original_model)" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" />
+</launch>
