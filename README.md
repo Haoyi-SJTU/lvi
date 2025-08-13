@@ -90,8 +90,6 @@ In constrained environments, the system may require additional tuning and optimi
 ## Video Demo
 [video](https://www.bilibili.com/video/BV164t9zrEYS/)
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115014912445655&bvid=BV164t9zrEYS&cid=31644192423&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
