@@ -91,7 +91,7 @@ In constrained environments, the system may require additional tuning and optimi
 [video](https://www.bilibili.com/video/BV164t9zrEYS/)
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Haoyi-SJTU/lvi/blob/main/LICENSE) file for more details.
 
 ## Contact
 For any inquiries, feel free to contact us:
