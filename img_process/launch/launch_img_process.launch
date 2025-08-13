@@ -1,0 +1,12 @@
+<launch>
+  <node name="img_publisher1" pkg="usb_cam_self" type="img_publisher1" output="screen" >
+  </node>
+
+  <node name="img_publisher2" pkg="usb_cam_self" type="img_publisher2" output="screen" >
+  </node>
+
+  <node name="receive_img" pkg="img_process" type="receive_img" output="screen" >
+  </node>
+
+</launch>
+

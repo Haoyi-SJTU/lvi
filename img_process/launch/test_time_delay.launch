@@ -1,0 +1,12 @@
+<launch>
+  <node name="img_publisher1" pkg="usb_cam_self" type="img_publisher1" output="screen" >
+  </node>
+
+  <node name="img_publisher2" pkg="usb_cam_self" type="img_publisher2" output="screen" >
+  </node>
+
+  <node name="receive_img_test_time_delay" pkg="img_process" type="receive_img_test_time_delay" output="screen" >
+  </node>
+
+</launch>
+

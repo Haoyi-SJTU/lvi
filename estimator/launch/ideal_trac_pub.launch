@@ -1,0 +1,25 @@
+<launch>
+<!-- 测试模式 -->
+<env name="ROS_LOG_LEVEL" value="release"/>
+
+<!-- 播放数据包 -->
+  <node pkg="rosbag" type="play" name="player" output="screen" args="-r 1 /home/yuanzhi/catkin_ws/bag/4.bag"/>
+<!-- 发布理想轨迹 -->
+  <node name="ideal_trace_pub" pkg="estimator" type="ideal_trace_pub" output="screen" >
+  </node>
+
+  <!-- 主节点 -->
+  <node name="estimator" pkg="estimator" type="estimator" output="screen" >
+  </node>
+
+<!-- 可视化 节点 -->
+  <include file="$(find display)/../display/launch/display.launch" />
+
+<!-- 记录TF轨迹 -->
+  <!-- <node name="tf_writer" pkg="tf_writer" type="tf_writer" output="screen" >
+  </node> -->
+  <!-- <node pkg="rosbag" type="record" name="tf_recorder" output="screen" args="-O tf_data.bag /tf"/> -->
+  <!-- <node pkg="rosbag" type="record" name="bag_record" args="/tf -o /home/yuanzhi/catkin_ws/tf_data.bag"/> -->
+
+</launch>
+

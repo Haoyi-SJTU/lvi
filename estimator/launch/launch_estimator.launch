@@ -1,0 +1,34 @@
+<launch>
+<!-- 测试模式 -->
+<env name="ROS_LOG_LEVEL" value="release"/>
+
+<!-- IMU 节点 -->
+  <include file="$(find estimator)/../xsens_ros_mti_driver/launch/xsens_mti_node.launch" />
+
+<!-- CAM 节点 -->
+  <node name="img_publisher1" pkg="usb_cam_self" type="img_publisher1" output="screen" >
+  </node>
+
+  <node name="img_publisher2" pkg="usb_cam_self" type="img_publisher2" output="screen" >
+  </node>
+
+<!-- April tag 节点 -->
+  <!-- <include file="$(find estimator)/../apriltag_ros/launch/continuous_detection.launch" /> -->
+
+<!-- 发布理想轨迹 -->
+  <node name="ideal_trace_pub" pkg="estimator" type="ideal_trace_pub" output="screen" >
+  </node>
+
+<!-- 图像处理节点 -->
+  <node name="receive_img" pkg="img_process" type="receive_img" output="screen" >
+  </node>
+
+<!-- 主节点 -->
+  <node name="estimator" pkg="estimator" type="estimator" output="screen" >
+  </node>
+
+<!-- 可视化 节点 -->
+  <include file="$(find display)/../display/launch/display.launch" />
+
+</launch>
+

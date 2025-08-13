@@ -1,0 +1,3 @@
+std_msgs/Header header
+geometry_msgs/Vector3 position_global
+geometry_msgs/Quaternion orientation_global
