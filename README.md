@@ -6,6 +6,7 @@
 `lvi` is a visual-inertial fusion depth measurement system for the end-effector of hyper-redundant robots. The system combines data from visual and inertial sensors to achieve high-precision depth estimation, making it particularly suitable for applications in constrained environments.
 
 [![OfDU1g.png](https://ooo.0x0.ooo/2025/08/13/OfDU1g.png)](https://img.tg/image/OfDU1g)
+![image](https://note.youdao.com/yws/res/2/WEBRESOURCE40bfc7cf72815685f4c43e5e50bb2e92)
 
 If you use this code, please cite our paper:
 
