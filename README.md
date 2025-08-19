@@ -16,7 +16,6 @@ If you use this code, please cite our paper:
   title={Visual–Inertial Fusion With Depth Measuring for Hyper-Redundant Robot’s End Under Constrained Environment}, 
   year={2024},
   volume={73},
-  number={},
   pages={1-11},
   keywords={Robot sensing systems;Robots;Cameras;Robot vision systems;Measurement by laser beam;Accuracy;Optimization;Hyper-redundant robot (HRR);laser spot;scale factor;visual–inertial odometry (VIO)},
   doi={10.1109/TIM.2024.3436096}}
@@ -97,4 +96,5 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 For any inquiries, feel free to contact us:
 
 Email: songhaoyi@sjtu.edu.cn
+
 GitHub: [Haoyi-SJTU](https://github.com/Haoyi-SJTU/)
