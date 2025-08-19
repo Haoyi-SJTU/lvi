@@ -35,7 +35,7 @@ The system consists of the following main modules:
 
 - **Image Processing Module**: Processes image data from the visual sensor.
 - **Estimation Module**: Performs depth estimation.
-- **TF Publishing Module**: Publishes the estimated results as 'ROS' Msg.
+- **TF Publishing Module**: Publishes the estimated results as ROS Msg.
 - **USB Camera Driver Module**: Provides support for the USB camera.
 - **Xsens ROS MTi Driver Module**: Provides support for the Xsens MTi inertial sensor.
 
