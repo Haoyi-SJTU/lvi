@@ -1,5 +1,8 @@
 # lvi--A Visual-Inertial Fusion Depth Measurement System for Hyper-Redundant Robots
 
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![ROS - Noetic](https://img.shields.io/badge/ROS-Noetic-orange)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Project Overview
 
